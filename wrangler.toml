@@ -1,0 +1,7 @@
+name = "go-link-shortener"
+compatibility_date = "2025-06-15"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "go-link-shortener-db"
+database_id = "YOUR_DATABASE_ID"

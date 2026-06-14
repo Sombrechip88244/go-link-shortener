@@ -1,0 +1,15 @@
+{
+  "name": "go-link-shortener",
+  "private": true,
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20250601.0",
+    "tsx": "^4.19.0"
+  },
+  "scripts": {
+    "dev": "wrangler pages dev ./",
+    "deploy": "wrangler pages deploy ./",
+    "db:init:local": "wrangler d1 execute go-link-shortener-db --local --file=./schema.sql",
+    "db:init:remote": "wrangler d1 execute go-link-shortener-db --remote --file=./schema.sql",
+    "test": "tsx tests/validate.test.ts"
+  }
+}
