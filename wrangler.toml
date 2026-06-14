@@ -3,6 +3,6 @@ compatibility_date = "2025-06-15"
 pages_build_output_dir = "."
 
 [[d1_databases]]
-binding = "DB"
+binding = "go_link_shortener_db"
 database_name = "go-link-shortener-db"
-database_id = "YOUR_DATABASE_ID"
+database_id = "217e427c-b269-4bbe-9b79-040578d73a24"
